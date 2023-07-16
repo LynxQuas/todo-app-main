@@ -1,0 +1,12 @@
+.result {
+  background-color: var(--color-very-dark-desaturated-blue);
+  color: var(--color-very-light-grayish-blue);
+  height: 70%;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+
+.result > h1 {
+  text-align: center;
+  padding: 5rem;
+}

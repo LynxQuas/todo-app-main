@@ -1,0 +1,55 @@
+.todo {
+  display: flex;
+  padding: 2rem 4rem;
+  width: 100%;
+  font-size: 1.8rem;
+  text-align: center;
+  align-items: center;
+  gap: 5rem;
+  font-weight: 400;
+  border-bottom: 1px solid var(--color-very-dark-grayish-blue);
+  position: relative;
+}
+
+.icon__clicked {
+  padding: 0.1rem 0.5rem;
+  border-radius: 50%;
+  align-self: center;
+  background-image: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  border: none;
+}
+
+.icon__empty {
+  width: 11px;
+  cursor: pointer;
+  align-self: center;
+  height: 9px;
+  border: 1px solid var(--color-very-dark-grayish-blue);
+  padding: 1rem;
+  background-color: var(--color-very-dark-desaturated-blue);
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+}
+
+.icon__empty:hover {
+  background: linear-gradient(
+        var(--color-very-dark-desaturated-blue),
+        var(--color-very-dark-desaturated-blue)
+      )
+      padding-box,
+    linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%)) border-box;
+  border: 1px solid transparent;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: var(--color-dark-grayish-blue);
+}
+
+p {
+  cursor: pointer;
+}
